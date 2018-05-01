@@ -1,0 +1,22 @@
+
+.heart img{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80% ;
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;    
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation{
+    from{
+    }
+    to 
+    {
+     transform: rotate(360deg);   
+    }
+    
+}
